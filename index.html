@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "fr">
+    <head>
+        <meta charset="utf-8">
+        <title>combinaisons killer sudoku</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="html">
+        <header>
+            <h1>Combinaisons killer sudoku</h1>
+            <a class="nav" href="tableaux.html">tables</a>
+        </header>
+        
+        <div name="form" id="form">
+            total : <input id="target_input" type="number" class="form">
+            <p></p>
+            nombre de cases : <input id="cases_input" type="number" class="form">
+            <p></p>
+            <div id="checkboxContainer" class="form">
+                <div class="checkboxlist">
+                    <p>Nombre exclus : </p>
+                    <div>
+                        <label for="1">1</label>
+                        <input type="checkbox" id="1">
+                    </div>
+                    <div>
+                        <label for="2">2</label>
+                        <input type="checkbox" id="2">
+                    </div>
+                    <div>
+                        <label for="3">3</label>
+                        <input type="checkbox" id="3">
+                    </div>
+                    <div>
+                        <label for="4">4</label>
+                        <input type="checkbox" id="4">
+                    </div>
+                    <div>
+                        <label for="5">5</label>
+                        <input type="checkbox" id="5">
+                    </div>
+                    <div>
+                        <label for="6">6</label>
+                        <input type="checkbox" id="6">
+                    </div>
+                    <div>
+                        <label for="7">7</label>
+                        <input type="checkbox" id="7">
+                    </div>
+                    <div>
+                        <label for="8">8</label>
+                        <input type="checkbox" id="8">
+                    </div>
+                    <div>
+                        <label for="9">9</label>
+                        <input type="checkbox" id="9">
+                    </div>
+                </div>
+            </div>
+            <input id="submit" type="button" value="calculer" class="form">
+            <p id="resultat" class="form"></p>
+        </div>
+        
+    </body>
+    <script src="combinaisons.js"></script>
+</html>
